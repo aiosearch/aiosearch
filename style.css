@@ -764,8 +764,10 @@ img { max-width: 100%; display: block; }
 .glossary-breadcrumb a:hover { text-decoration: underline; }
 /* コラム一覧カード */
 .column-list { display: grid; gap: 18px; margin-top: 26px; }
-.column-card { display: block; background: #fff; border: 1px solid #e0e7ff; border-radius: 16px; padding: 24px 26px; text-decoration: none; transition: all .2s; }
+.column-card { display: block; background: #fff; border: 1px solid #e0e7ff; border-radius: 16px; padding: 16px 16px 22px; text-decoration: none; transition: all .2s; }
 .column-card:hover { box-shadow: 0 10px 28px rgba(0,0,40,.08); transform: translateY(-2px); border-color: #225cff; }
+.col-thumb { display: block; width: 100%; aspect-ratio: 1200 / 630; object-fit: cover; border-radius: 12px; margin-bottom: 14px; background: #eef2ff; }
+.column-card .col-tag, .column-card .col-title, .column-card .col-desc { margin-left: 4px; margin-right: 4px; }
 .col-tag { display: inline-block; font-size: 0.72rem; font-weight: 800; color: #225cff; background: #eef2ff; padding: 3px 10px; border-radius: 10px; margin-bottom: 10px; }
 .col-title { font-size: 1.2rem; font-weight: 800; color: #000048; margin-bottom: 6px; }
 .col-desc { font-size: 0.9rem; color: #4a5278; line-height: 1.7; }
