@@ -624,6 +624,16 @@ img { max-width: 100%; display: block; }
 .plan-badge.orange { background: #f77911; }
 .plan-name { font-size: 1.5rem; font-weight: 900; color: #000048; margin-bottom: 6px; }
 .plan-for { font-size: 0.9rem; color: #225cff; font-weight: 700; margin-bottom: 20px; }
+/* 料金表示（料金ページ用） */
+.plan-price { margin: 16px 0 20px; padding: 14px 0; border-top: 1px dashed #d3dbff; border-bottom: 1px dashed #d3dbff; text-align: center; }
+.plan-price .num { font-size: 2.2rem; font-weight: 900; color: #000048; letter-spacing: -.02em; }
+.plan-price .yen { font-size: 1.1rem; font-weight: 900; color: #000048; }
+.plan-price .per { font-size: 0.95rem; font-weight: 700; color: #6a7196; margin-left: 2px; }
+.plan-price.recommend-price .num, .plan-price.recommend-price .yen { color: #f77911; }
+.spot-price { margin: 22px auto 8px; padding: 18px 0; max-width: 820px; text-align: center; border-top: 1px dashed #cfd8ff; border-bottom: 1px dashed #cfd8ff; }
+.spot-price .num { font-size: 2.6rem; font-weight: 900; color: #225cff; letter-spacing: -.02em; }
+.spot-price .yen { font-size: 1.2rem; font-weight: 900; color: #225cff; }
+.spot-price .tax { display: block; font-size: 0.82rem; color: #6a7196; font-weight: 700; margin-top: 4px; }
 .plan-feats { list-style: none; display: flex; flex-direction: column; gap: 13px; }
 .plan-feats li { position: relative; padding-left: 30px; font-size: 0.95rem; color: #2a3270; line-height: 1.5; }
 .plan-feats li::before {
