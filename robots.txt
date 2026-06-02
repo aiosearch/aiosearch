@@ -1,0 +1,63 @@
+# aiosearch.net robots.txt
+# 検索エンジン・生成AIクローラーの巡回方針
+
+# 全クローラー共通：トップページ等は許可、価格ページ（個別送付）は除外
+User-agent: *
+Allow: /
+Disallow: /spot
+Disallow: /spot.html
+Disallow: /plans
+Disallow: /plans.html
+
+# 生成AIクローラーを明示的に許可（AIに引用・認識されるため）
+User-agent: GPTBot
+Allow: /
+Disallow: /spot
+Disallow: /plans
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /spot
+Disallow: /plans
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /spot
+Disallow: /plans
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /spot
+Disallow: /plans
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /spot
+Disallow: /plans
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /spot
+Disallow: /plans
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /spot
+Disallow: /plans
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /spot
+Disallow: /plans
+
+User-agent: CCBot
+Allow: /
+Disallow: /spot
+Disallow: /plans
+
+User-agent: Bingbot
+Allow: /
+Disallow: /spot
+Disallow: /plans
+
+Sitemap: https://aiosearch.net/sitemap.xml
