@@ -778,6 +778,21 @@ img { max-width: 100%; display: block; }
 .term { font-size: 1.02rem; font-weight: 800; color: #000048; margin-top: 18px; scroll-margin-top: 88px; }
 .term-def { margin: 6px 0 0; font-size: 0.92rem; color: #3a4170; line-height: 1.85; }
 
+/* 記事内CTA（サービスへの誘導） */
+.article-cta { margin: 44px 0 8px; }
+.article-cta-inner { display: flex; gap: 22px; align-items: center; background: linear-gradient(135deg, #eef2ff, #e6edff); border: 1px solid #d3dbff; border-radius: 18px; padding: 22px 26px; text-decoration: none; transition: all .2s; }
+.article-cta-inner:hover { box-shadow: 0 12px 30px rgba(34,92,255,.16); transform: translateY(-2px); }
+.article-cta-img { width: 220px; height: auto; border-radius: 12px; flex-shrink: 0; box-shadow: 0 6px 18px rgba(0,0,40,.14); }
+.article-cta-body { flex: 1; }
+.article-cta-lead { font-size: 1.08rem; font-weight: 800; color: #000048; margin-bottom: 8px; }
+.article-cta-text { font-size: 0.9rem; color: #3a4170; line-height: 1.8; margin-bottom: 14px; }
+.article-cta-text strong { color: #225cff; }
+.article-cta-btn { display: inline-block; background: #225cff; color: #fff; font-weight: 800; font-size: 0.92rem; padding: 11px 24px; border-radius: 50px; box-shadow: 0 6px 18px rgba(34,92,255,.35); }
+@media (max-width: 700px) {
+    .article-cta-inner { flex-direction: column; align-items: stretch; gap: 16px; }
+    .article-cta-img { width: 100%; }
+}
+
 @media (max-width: 700px) {
     .glossary-container { padding: 32px 22px; }
 }
