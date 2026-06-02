@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>構造化データとは？AIに正しく伝えるための基礎知識 | AIO対策パートナーズ</title>
+    <meta name="description" content="構造化データとは、Webページの内容を機械が理解できる形で記述したデータです。AIO対策でなぜ重要なのか、代表的な種類（Organization・FAQ・Article）、JSON-LDでの導入方法と注意点をわかりやすく解説します。">
+    <link rel="canonical" href="https://aiosearch.net/structured-data-basics">
+    <meta name="theme-color" content="#225cff">
+    <meta property="og:type" content="article">
+    <meta property="og:site_name" content="AIO対策パートナーズ">
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:url" content="https://aiosearch.net/structured-data-basics">
+    <meta property="og:title" content="構造化データとは？AIに正しく伝えるための基礎知識">
+    <meta property="og:description" content="構造化データの意味、AIO対策での重要性、代表的な種類と導入方法をわかりやすく解説。">
+    <meta property="og:image" content="https://aiosearch.net/images/AIOOGP.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="構造化データとは？AIに正しく伝える基礎知識">
+    <meta name="twitter:description" content="構造化データの意味・重要性・導入方法をわかりやすく解説。">
+    <meta name="twitter:image" content="https://aiosearch.net/images/AIOOGP.png">
+    <link rel="icon" type="image/png" href="/images/AIO512marukado.png">
+    <link rel="apple-touch-icon" href="/images/AIO512marukado.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;800;900&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://aiosearch.net/" },
+        { "@type": "ListItem", "position": 2, "name": "コラム", "item": "https://aiosearch.net/column" },
+        { "@type": "ListItem", "position": 3, "name": "構造化データとは？", "item": "https://aiosearch.net/structured-data-basics" }
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "構造化データとは？AIに正しく伝えるための基礎知識",
+      "description": "構造化データの意味、AIO対策での重要性、代表的な種類とJSON-LDでの導入方法を解説します。",
+      "image": "https://aiosearch.net/images/AIOOGP.png",
+      "inLanguage": "ja",
+      "datePublished": "2026-06-02",
+      "dateModified": "2026-06-02",
+      "author": { "@type": "Organization", "name": "AIO対策パートナーズ", "url": "https://aiosearch.net/" },
+      "publisher": { "@type": "Organization", "name": "AIO対策パートナーズ", "logo": { "@type": "ImageObject", "url": "https://aiosearch.net/images/AIO512marukado.png" } },
+      "mainEntityOfPage": "https://aiosearch.net/structured-data-basics"
+    }
+    </script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="/" class="brand"><span class="brand-mark">AIO</span><span class="brand-name">対策パートナーズ</span></a>
+            <nav class="header-nav">
+                <a href="/column" class="nav-link">コラム</a>
+                <a href="YOUR_LINE_URL" class="header-cta" target="_blank" rel="noopener">無料相談はこちら</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="legal-page">
+        <div class="container legal-container glossary-container">
+            <nav class="glossary-breadcrumb"><a href="/">ホーム</a> ／ <a href="/column">コラム</a> ／ 構造化データとは？</nav>
+            <h1 class="legal-title">構造化データとは？AIに正しく伝えるための基礎知識</h1>
+            <p class="legal-lead">AIO対策の話で必ず出てくる「構造化データ」。名前は難しそうですが、考え方はシンプルです。この記事では、構造化データとは何か、なぜAIに重要なのか、どんな種類があり、どう導入するのかを、専門知識がなくてもわかるように解説します。</p>
+
+            <nav class="toc" aria-label="目次">
+                <p class="toc-title">目次</p>
+                <ul>
+                    <li><a href="#what">構造化データとは</a></li>
+                    <li><a href="#why">なぜAIO対策で重要なのか</a></li>
+                    <li><a href="#types">代表的な種類</a></li>
+                    <li><a href="#how">導入方法（JSON-LD）</a></li>
+                    <li><a href="#notes">注意点</a></li>
+                </ul>
+            </nav>
+
+            <section class="legal-section">
+                <h2 class="legal-h2" id="what">構造化データとは</h2>
+                <p><a href="/glossary#structured-data">構造化データ</a>とは、Webページの内容（会社情報・商品・FAQなど）を、機械が理解できる決まった形式で記述したデータです。人間は文章を読んで「これは会社名」「これは料金」と判断できますが、AIや検索エンジンには明示しないと正確に伝わりません。構造化データは、その「ラベル付け」をする役割を持ちます。</p>
+                <p>国際的な共通仕様である<strong>Schema.org</strong>の語彙を使い、多くは<strong>JSON-LD</strong>という形式で記述します。</p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-h2" id="why">なぜAIO対策で重要なのか</h2>
+                <p>AIは、事実が整理され機械的に理解しやすいページを引用元に選びやすい傾向があります。構造化データで「これは会社情報」「これはFAQ」と明示すると、AIが内容を取り違えにくくなり、<a href="/glossary#hallucination">ハルシネーション</a>（誤った情報の生成）の抑制にもつながります。見た目を変えずにAIへ正確な情報を渡せるのが大きな利点です。</p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-h2" id="types">代表的な種類</h2>
+                <ul class="legal-list">
+                    <li><strong>Organization / LocalBusiness</strong>：会社・店舗の基本情報（名称・事業内容・所在地・連絡先）</li>
+                    <li><strong>FAQPage</strong>：よくある質問と回答。AIが引用しやすい形式</li>
+                    <li><strong>Article</strong>：記事・コラムの情報（見出し・著者・公開日）</li>
+                    <li><strong>BreadcrumbList</strong>：パンくず。サイト構造を伝える</li>
+                    <li><strong>Product / Offer</strong>：商品・サービスや価格の情報</li>
+                </ul>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-h2" id="how">導入方法（JSON-LD）</h2>
+                <p>一般的には、ページの<code>&lt;head&gt;</code>内に<code>&lt;script type="application/ld+json"&gt;</code>として記述します。本文の見た目には影響しないため、デザインを崩さずに追加できます。書いた後は、Googleの「リッチリザルトテスト」などで正しく認識されるかを確認すると安心です。</p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-h2" id="notes">注意点</h2>
+                <ul class="legal-list">
+                    <li><strong>実際のページ内容と一致させる</strong>：表示と異なる情報を構造化データに書かない</li>
+                    <li><strong>非公開にしたい情報は入れない</strong>：価格などを伏せたい場合は構造化データからも除外する</li>
+                    <li><strong>構文を正しく保つ</strong>：書式が崩れると認識されないため、検証ツールでチェックする</li>
+                </ul>
+                <p>構造化データはAIO対策の土台のひとつです。ただし、これだけで完結するわけではなく、明確な事実記述・FAQ・継続的な見直しと組み合わせることで効果を発揮します。</p>
+            </section>
+
+            <aside class="article-related">
+                <p class="rel-ttl">あわせて読みたい</p>
+                <ul>
+                    <li><a href="/what-is-aio">AIO対策とは？SEOとの違いと、今日から始める基本ステップ</a></li>
+                    <li><a href="/get-cited-by-ai">ChatGPTやGeminiに自社を紹介してもらうには？AIに引用される5つのポイント</a></li>
+                    <li><a href="/glossary">AIO・AI検索の用語集</a></li>
+                </ul>
+            </aside>
+
+            <aside class="article-cta">
+                <a href="/" class="article-cta-inner">
+                    <img src="/images/AIOOGP.png" alt="AIO対策パートナーズ｜AIに選ばれる準備を、はじめよう" class="article-cta-img" loading="lazy">
+                    <div class="article-cta-body">
+                        <p class="article-cta-lead">構造化データの実装、まるごとお任せください。</p>
+                        <p class="article-cta-text"><strong>AIO対策パートナーズ</strong> が、構造化データの整備を含め、AIに正しく認識される土台づくりを無料相談からサポートします。</p>
+                        <span class="article-cta-btn">サービスを見る・無料相談する →</span>
+                    </div>
+                </a>
+            </aside>
+
+            <p class="legal-back"><a href="/column">← コラム一覧に戻る</a></p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-logo"><span class="footer-brand-mark">AIO</span> <span class="footer-brand-name">対策パートナーズ</span></p>
+            <p class="footer-links"><a href="/column">コラム</a> ｜ <a href="/privacy">プライバシーポリシー</a></p>
+            <p class="copyright">© 2026 AIO対策パートナーズ</p>
+        </div>
+    </footer>
+</body>
+</html>
