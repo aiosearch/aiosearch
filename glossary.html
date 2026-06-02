@@ -87,18 +87,54 @@
             <h1 class="legal-title">AIO・AI検索の用語集</h1>
             <p class="legal-intro">AIO（AI最適化）やAI検索に関する用語を、わかりやすく解説します。「AIに選ばれる」ための基礎知識としてご活用ください。</p>
 
+            <nav class="toc" aria-label="目次">
+                <p class="toc-title">目次</p>
+                <div class="toc-group">
+                    <p class="toc-cat">最適化に関する用語</p>
+                    <ul>
+                        <li><a href="#aio">AIO（AI最適化）</a></li>
+                        <li><a href="#aeo">AEO（Answer Engine Optimization）</a></li>
+                        <li><a href="#llmo">LLMO（LLM最適化）</a></li>
+                        <li><a href="#geo">GEO（Generative Engine Optimization）</a></li>
+                        <li><a href="#seo">SEO（検索エンジン最適化）</a></li>
+                    </ul>
+                </div>
+                <div class="toc-group">
+                    <p class="toc-cat">AI・検索に関する用語</p>
+                    <ul>
+                        <li><a href="#ai-search">生成AI検索（AI検索）</a></li>
+                        <li><a href="#ai-overview">AI Overview</a></li>
+                        <li><a href="#chatgpt">ChatGPT</a></li>
+                        <li><a href="#gemini">Gemini</a></li>
+                        <li><a href="#perplexity">Perplexity</a></li>
+                    </ul>
+                </div>
+                <div class="toc-group">
+                    <p class="toc-cat">仕組み・技術に関する用語</p>
+                    <ul>
+                        <li><a href="#structured-data">構造化データ（Schema.org）</a></li>
+                        <li><a href="#rag">RAG（検索拡張生成）</a></li>
+                        <li><a href="#crawler">クローラー</a></li>
+                        <li><a href="#citation">引用・出典（Citation）</a></li>
+                        <li><a href="#zero-click">ゼロクリック検索</a></li>
+                        <li><a href="#hallucination">ハルシネーション</a></li>
+                        <li><a href="#eeat">E-E-A-T</a></li>
+                    </ul>
+                </div>
+            </nav>
+
             <section class="glossary-group">
                 <h2 class="glossary-cat">最適化に関する用語</h2>
                 <dl class="term-list">
-                    <dt class="term">AIO（AI最適化）</dt>
+                    <dt class="term" id="aio">AIO（AI最適化）</dt>
                     <dd class="term-def">生成AIの回答に自社の情報が正しく引用・紹介されるよう、Webサイトや情報を最適化する取り組み。従来のSEO（検索順位の最適化）に対し、AIの「回答」での露出を狙う点が特徴です。</dd>
-                    <dt class="term">AEO（Answer Engine Optimization）</dt>
+                    <dt class="term" id="aeo">AEO（Answer Engine Optimization）</dt>
                     <dd class="term-def">検索や音声アシスタントなどの「回答エンジン」に、直接の答えとして採用されることを狙う最適化。質問に簡潔に答える構成やFAQが重視され、AIOとほぼ同義で使われることもあります。</dd>
-                    <dt class="term">LLMO（LLM最適化）</dt>
+                    <dt class="term" id="llmo">LLMO（LLM最適化）</dt>
                     <dd class="term-def">ChatGPTなどの大規模言語モデル（LLM）に、自社情報が参照・引用されやすいよう整える最適化の考え方。</dd>
-                    <dt class="term">GEO（Generative Engine Optimization）</dt>
+                    <dt class="term" id="geo">GEO（Generative Engine Optimization）</dt>
                     <dd class="term-def">生成AIによる回答エンジン（Generative Engine）での露出を高める最適化。AIO・AEOと重なる概念です。</dd>
-                    <dt class="term">SEO（検索エンジン最適化）</dt>
+                    <dt class="term" id="seo">SEO（検索エンジン最適化）</dt>
                     <dd class="term-def">検索エンジンの検索結果で上位表示を狙う最適化。AIOの土台にもなりますが、目的は「順位」であり、AIの回答での引用を狙うAIOとは目的が異なります。</dd>
                 </dl>
             </section>
@@ -106,15 +142,15 @@
             <section class="glossary-group">
                 <h2 class="glossary-cat">AI・検索に関する用語</h2>
                 <dl class="term-list">
-                    <dt class="term">生成AI検索（AI検索）</dt>
+                    <dt class="term" id="ai-search">生成AI検索（AI検索）</dt>
                     <dd class="term-def">ChatGPTやGoogle AI Overviewのように、リンク一覧ではなくAIが要約した「回答」を返す検索の総称。</dd>
-                    <dt class="term">AI Overview</dt>
+                    <dt class="term" id="ai-overview">AI Overview</dt>
                     <dd class="term-def">Googleの検索結果上部に、AIが生成した要約回答を表示する機能。複数のサイトを参照して回答を作成します。</dd>
-                    <dt class="term">ChatGPT</dt>
+                    <dt class="term" id="chatgpt">ChatGPT</dt>
                     <dd class="term-def">OpenAIが提供する対話型生成AI。質問に文章で回答し、Web検索と連携して最新情報や出典を示すこともあります。</dd>
-                    <dt class="term">Gemini</dt>
+                    <dt class="term" id="gemini">Gemini</dt>
                     <dd class="term-def">Googleが提供する生成AI。Google検索と連携し、回答の鮮度が高いのが特徴です。</dd>
-                    <dt class="term">Perplexity</dt>
+                    <dt class="term" id="perplexity">Perplexity</dt>
                     <dd class="term-def">出典（引用リンク）を明示しながら回答するAI検索エンジン。情報源を確認しやすいのが特徴です。</dd>
                 </dl>
             </section>
@@ -122,19 +158,19 @@
             <section class="glossary-group">
                 <h2 class="glossary-cat">仕組み・技術に関する用語</h2>
                 <dl class="term-list">
-                    <dt class="term">構造化データ（Schema.org）</dt>
+                    <dt class="term" id="structured-data">構造化データ（Schema.org）</dt>
                     <dd class="term-def">ページの内容（会社・商品・FAQなど）を機械が理解できる形式で記述したデータ。AIや検索エンジンが情報を正確に把握する助けになります。JSON-LD形式が一般的です。</dd>
-                    <dt class="term">RAG（検索拡張生成）</dt>
+                    <dt class="term" id="rag">RAG（検索拡張生成）</dt>
                     <dd class="term-def">AIが回答時に外部の最新情報を検索して取り込み、生成に反映する仕組み。AIに引用されるには、この検索対象になることが重要です。</dd>
-                    <dt class="term">クローラー</dt>
+                    <dt class="term" id="crawler">クローラー</dt>
                     <dd class="term-def">Webページを自動で巡回し情報を収集するプログラム。GPTBotやGoogle-Extendedなど、生成AI向けのクローラーも存在します。</dd>
-                    <dt class="term">引用・出典（Citation）</dt>
+                    <dt class="term" id="citation">引用・出典（Citation）</dt>
                     <dd class="term-def">AIが回答の根拠として参照・明示する情報源。AIO対策では、この「引用される側」になることを目指します。</dd>
-                    <dt class="term">ゼロクリック検索</dt>
+                    <dt class="term" id="zero-click">ゼロクリック検索</dt>
                     <dd class="term-def">検索結果やAIの回答内で疑問が解決し、ユーザーがサイトをクリックしない状態。AI回答内での露出（引用）の重要性が高まる背景となっています。</dd>
-                    <dt class="term">ハルシネーション</dt>
+                    <dt class="term" id="hallucination">ハルシネーション</dt>
                     <dd class="term-def">AIが事実と異なる情報を、もっともらしく生成してしまう現象。正確な情報を構造化して提供することが、誤認識の抑制につながります。</dd>
-                    <dt class="term">E-E-A-T</dt>
+                    <dt class="term" id="eeat">E-E-A-T</dt>
                     <dd class="term-def">経験・専門性・権威性・信頼性（Experience, Expertise, Authoritativeness, Trust）。Googleが評価する品質指標で、AIに信頼される情報源になるためにも重要です。</dd>
                 </dl>
             </section>

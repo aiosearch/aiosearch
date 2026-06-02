@@ -762,11 +762,20 @@ img { max-width: 100%; display: block; }
 .col-title { font-size: 1.2rem; font-weight: 800; color: #000048; margin-bottom: 6px; }
 .col-desc { font-size: 0.9rem; color: #4a5278; line-height: 1.7; }
 .column-coming { margin-top: 22px; font-size: 0.85rem; color: #6a7196; }
+/* 目次 */
+.toc { background: #f3f6ff; border: 1px solid #e0e7ff; border-radius: 14px; padding: 22px 26px; margin: 26px 0 8px; }
+.toc-title { font-size: 1.05rem; font-weight: 800; color: #000048; margin-bottom: 12px; }
+.toc-group { margin-top: 12px; }
+.toc-cat { font-size: 0.8rem; font-weight: 800; color: #225cff; margin-bottom: 6px; }
+.toc ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.toc a { color: #3a4170; text-decoration: none; font-size: 0.9rem; }
+.toc a::before { content: "・"; color: #9aa6d8; }
+.toc a:hover { color: #225cff; text-decoration: underline; }
 /* 用語集 */
 .glossary-group { margin-top: 36px; }
-.glossary-cat { font-size: 1.15rem; font-weight: 800; color: #225cff; border-left: 4px solid #225cff; padding-left: 12px; margin-bottom: 12px; }
+.glossary-cat { font-size: 1.15rem; font-weight: 800; color: #225cff; border-left: 4px solid #225cff; padding-left: 12px; margin-bottom: 12px; scroll-margin-top: 88px; }
 .term-list { margin: 0; }
-.term { font-size: 1.02rem; font-weight: 800; color: #000048; margin-top: 18px; }
+.term { font-size: 1.02rem; font-weight: 800; color: #000048; margin-top: 18px; scroll-margin-top: 88px; }
 .term-def { margin: 6px 0 0; font-size: 0.92rem; color: #3a4170; line-height: 1.85; }
 
 @media (max-width: 700px) {
