@@ -874,3 +874,14 @@ img { max-width: 100%; display: block; }
     .hero-arc-left { width: 620px; height: 620px; left: -480px; top: -120px; opacity: 0.45; }
     .hero-arc-right { width: 620px; height: 620px; right: -480px; top: -80px; opacity: 0.4; }
 }
+
+/* ========================================
+   行末の孤立文字（句点1文字など）を抑制
+   ======================================== */
+.faq-a, .flow-desc, .legal-section p, .legal-lead, .legal-intro,
+.term-def, .col-desc, .plans-lead, .plans-note, .plans-cont-note,
+.cases-note, .honest-desc, .feat-desc, .reach-lead, .stat-label,
+.spot-sub, .article-cta-text, .legal-back, .column-coming {
+    text-wrap: pretty;
+    word-break: auto-phrase;
+}
