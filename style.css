@@ -715,7 +715,7 @@ img { max-width: 100%; display: block; }
 .cta-urgency { background: #fff; display: inline-block; padding: 11px 26px; border-radius: 30px; margin-bottom: 28px; animation: pulse 1s ease-in-out infinite; }
 @keyframes pulse { 0%,100%{ transform: scale(1);} 50%{ transform: scale(1.03);} }
 .urgency-text { font-size: 0.98rem; font-weight: 700; color: #000048; }
-.urgency-icon { color: #f77911; }
+.urgency-icon { width: 1.4em; height: 1.4em; object-fit: contain; vertical-align: middle; display: inline-block; }
 .final-cta-section .line-btn { padding: 19px 48px; font-size: 1.18rem; }
 .cta-note { font-size: 0.78rem; color: rgba(255,255,255,0.78); margin-top: 16px; }
 
