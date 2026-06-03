@@ -785,6 +785,12 @@ img { max-width: 100%; display: block; }
 .toc a:hover { color: #225cff; text-decoration: underline; }
 /* 用語集 */
 .glossary-group { margin-top: 36px; }
+.faq-group { margin-top: 36px; }
+.faq-group .glossary-cat { margin-bottom: 16px; }
+.faq-group .faq-list { display: flex; flex-direction: column; gap: 12px; }
+.faq-more { text-align: center; margin-top: 24px; }
+.faq-more a { color: #225cff; font-weight: 800; text-decoration: none; }
+.faq-more a:hover { text-decoration: underline; }
 .glossary-cat { font-size: 1.15rem; font-weight: 800; color: #225cff; border-left: 4px solid #225cff; padding-left: 12px; margin-bottom: 12px; scroll-margin-top: 88px; }
 .term-list { margin: 0; }
 .term { font-size: 1.02rem; font-weight: 800; color: #000048; margin-top: 18px; scroll-margin-top: 88px; }
