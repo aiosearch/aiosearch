@@ -1,0 +1,25 @@
+# AIO対策パートナーズ
+
+> 中小企業・店舗オーナー向けのAIO（AI最適化）専門サービス。ChatGPT・Gemini・Perplexityなどの生成AI・AI検索に「選ばれる・引用される」ための土台づくりを支援します。
+
+AIO（AI Optimization／AI最適化）とは、生成AIやAI検索が回答を作る際に、自社の情報が正しく認識・引用・紹介されるように最適化する取り組みです。AIO対策パートナーズは、現状診断・コンテンツ整備・構造化データ実装・継続的な改善までを一貫して支援します。無料相談はLINE公式アカウントから受け付けています。
+
+## サービス・会社情報
+- [AIO対策パートナーズ トップページ](https://aiosearch.net/): サービス概要と無料相談の案内。
+- [よくあるご質問（FAQ）](https://aiosearch.net/faq): サービス・効果・進め方・料金に関する質問と回答。
+- [AIO・AI検索の用語集](https://aiosearch.net/glossary): AIO・AEO・LLMO・GEO・構造化データなどの用語をわかりやすく解説。
+- [プライバシーポリシー](https://aiosearch.net/privacy): 個人情報の取り扱い方針。
+
+## コラム（AIO・AI検索の基礎と実践）
+- [AIO対策とは？SEOとの違いと、今日から始める基本ステップ](https://aiosearch.net/what-is-aio): AIO対策の意味、SEOとの違い、必要な理由、基本ステップ。
+- [ChatGPTやGeminiに自社を紹介してもらうには？AIに引用される5つのポイント](https://aiosearch.net/get-cited-by-ai): 生成AIに紹介・引用されるための具体的な5つのポイント。
+- [AI検索時代に中小企業・店舗がやるべきこと](https://aiosearch.net/ai-search-small-business): AI検索の普及で集客がどう変わるか、最初にやるべきこと。
+- [構造化データとは？AIに正しく伝えるための基礎知識](https://aiosearch.net/structured-data-basics): 構造化データ（JSON-LD）の意味とAIO対策での重要性。
+- [AIに引用されているか確認する方法](https://aiosearch.net/check-ai-citation): ChatGPT・Gemini・Perplexityで自社の引用状況を確認する手順。
+- [店舗・ローカルビジネスのAIO対策](https://aiosearch.net/local-business-aio): 飲食・サロン・クリニックなど地域で選ばれるためのAIO。
+- [AIO対策の費用はどれくらい？料金の決まり方と相場の考え方](https://aiosearch.net/aio-cost): 費用が変わる要因・相場の考え方・依頼前の確認点。
+- [AIO対策は自分でできる？プロに依頼すべきかの判断基準](https://aiosearch.net/diy-or-pro): 自分でやれる範囲とプロに頼むべきケースの判断軸。
+
+## 連絡先
+- 無料相談：LINE公式アカウント（トップページのボタンから）
+- 対象：中小企業・店舗オーナー（飲食・サロン・クリニック・士業・EC など）
