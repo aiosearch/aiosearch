@@ -41,6 +41,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aiosearch.net/always-ai-ready</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiosearch.net/ai-overview-impact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
