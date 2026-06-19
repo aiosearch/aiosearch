@@ -56,6 +56,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aiosearch.net/voice-ai-chatbot</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiosearch.net/ai-overview-impact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
