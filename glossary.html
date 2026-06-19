@@ -55,7 +55,7 @@
       "url": "https://aiosearch.net/glossary",
       "inLanguage": "ja",
       "datePublished": "2026-06-02T09:00:00+09:00",
-      "dateModified": "2026-06-09T09:00:00+09:00",
+      "dateModified": "2026-06-19T09:00:00+09:00",
       "hasDefinedTerm": [
         { "@type": "DefinedTerm", "name": "AIO（AI最適化）", "description": "生成AIの回答に自社の情報が正しく引用・紹介されるよう、Webサイトや情報を最適化する取り組み。従来のSEO（検索順位の最適化）に対し、AIの『回答』での露出を狙う点が特徴です。" },
         { "@type": "DefinedTerm", "name": "AEO（Answer Engine Optimization）", "description": "検索や音声アシスタントなどの『回答エンジン』に、直接の答えとして採用されることを狙う最適化。質問に簡潔に答える構成やFAQが重視され、AIOとほぼ同義で使われることもあります。" },
@@ -67,13 +67,18 @@
         { "@type": "DefinedTerm", "name": "ChatGPT", "description": "OpenAIが提供する対話型生成AI。質問に文章で回答し、Web検索と連携して最新情報や出典を示すこともあります。" },
         { "@type": "DefinedTerm", "name": "Gemini", "description": "Googleが提供する生成AI。Google検索と連携し、回答の鮮度が高いのが特徴です。" },
         { "@type": "DefinedTerm", "name": "Perplexity", "description": "出典（引用リンク）を明示しながら回答するAI検索エンジン。情報源を確認しやすいのが特徴です。" },
+        { "@type": "DefinedTerm", "name": "Copilot（Microsoft Copilot）", "description": "Microsoftが提供する生成AIアシスタント。WindowsやEdge、Bing検索と連携し、Web上の情報を参照して回答します。Bing経由の情報を参照するため、AIO対策ではBingへの登録も有効です。" },
         { "@type": "DefinedTerm", "name": "構造化データ（Schema.org）", "description": "ページの内容（会社・商品・FAQなど）を機械が理解できる形式で記述したデータ。AIや検索エンジンが情報を正確に把握する助けになります。JSON-LD形式が一般的です。" },
         { "@type": "DefinedTerm", "name": "RAG（検索拡張生成）", "description": "AIが回答時に外部の最新情報を検索して取り込み、生成に反映する仕組み。AIに引用されるには、この検索対象になることが重要です。" },
         { "@type": "DefinedTerm", "name": "クローラー", "description": "Webページを自動で巡回し情報を収集するプログラム。GPTBotやGoogle-Extendedなど、生成AI向けのクローラーも存在します。" },
         { "@type": "DefinedTerm", "name": "引用・出典（Citation）", "description": "AIが回答の根拠として参照・明示する情報源。AIO対策では、この『引用される側』になることを目指します。" },
         { "@type": "DefinedTerm", "name": "ゼロクリック検索", "description": "検索結果やAIの回答内で疑問が解決し、ユーザーがサイトをクリックしない状態。AI回答内での露出（引用）の重要性が高まる背景となっています。" },
         { "@type": "DefinedTerm", "name": "ハルシネーション", "description": "AIが事実と異なる情報を、もっともらしく生成してしまう現象。正確な情報を構造化して提供することが、誤認識の抑制につながります。" },
-        { "@type": "DefinedTerm", "name": "E-E-A-T", "description": "経験・専門性・権威性・信頼性（Experience, Expertise, Authoritativeness, Trust）。Googleが評価する品質指標で、AIに信頼される情報源になるためにも重要です。" }
+        { "@type": "DefinedTerm", "name": "E-E-A-T", "description": "経験・専門性・権威性・信頼性（Experience, Expertise, Authoritativeness, Trust）。Googleが評価する品質指標で、AIに信頼される情報源になるためにも重要です。" },
+        { "@type": "DefinedTerm", "name": "llms.txt", "description": "AIに読み取ってほしい情報やページを案内するためのテキストファイル。サイトの要点やリンクをまとめ、AIが内容を効率よく理解する助けを目的とした、比較的新しい取り組みです。" },
+        { "@type": "DefinedTerm", "name": "ナレッジグラフ（Knowledge Graph）", "description": "人・組織・場所などの実体（エンティティ）とその関係を結びつけた知識のデータベース。GoogleやAIが『その会社が実在し、何者か』を理解する土台になり、AIに正しく認識されるうえで重要です。" },
+        { "@type": "DefinedTerm", "name": "sameAs", "description": "構造化データで使う項目の一つで、公式サイトと同じ会社・人物を指すSNSや外部プロフィールのURLを示すもの。複数の情報源を結びつけ、AIに『同一の存在』だと正しく伝える役割があります。" },
+        { "@type": "DefinedTerm", "name": "NAP一貫性", "description": "名称（Name）・住所（Address）・電話番号（Phone）など会社情報を、Webサイトや各種掲載先で完全に統一すること。情報が一致しているほど、AIや検索エンジンが同じ会社だと正確に認識します。" }
       ]
     }
     </script>
@@ -98,7 +103,7 @@
         <div class="container legal-container glossary-container">
             <nav class="glossary-breadcrumb"><a href="/">ホーム</a> ／ <a href="/column">コラム</a> ／ 用語集</nav>
             <h1 class="legal-title">AIO・AI検索の用語集</h1>
-            <p class="article-date">公開日：2026年6月2日<span class="sep">｜</span>更新日：2026年6月9日</p>
+            <p class="article-date">公開日：2026年6月2日<span class="sep">｜</span>更新日：2026年6月19日</p>
             <img src="/images/eyecatch/glossary.png" alt="AIO・AI検索の用語集" class="article-eyecatch" width="1200" height="630" loading="lazy">
             <p class="legal-intro">AIO（AI最適化）やAI検索に関する用語を、わかりやすく解説します。「AIに選ばれる」ための基礎知識としてご活用ください。</p>
 
@@ -131,6 +136,7 @@
                         <li><a href="#chatgpt">ChatGPT</a></li>
                         <li><a href="#gemini">Gemini</a></li>
                         <li><a href="#perplexity">Perplexity</a></li>
+                        <li><a href="#copilot">Copilot（Microsoft Copilot）</a></li>
                     </ul>
                 </div>
                 <div class="toc-group">
@@ -143,6 +149,10 @@
                         <li><a href="#zero-click">ゼロクリック検索</a></li>
                         <li><a href="#hallucination">ハルシネーション</a></li>
                         <li><a href="#eeat">E-E-A-T</a></li>
+                        <li><a href="#llms-txt">llms.txt</a></li>
+                        <li><a href="#knowledge-graph">ナレッジグラフ（Knowledge Graph）</a></li>
+                        <li><a href="#sameas">sameAs</a></li>
+                        <li><a href="#nap">NAP一貫性</a></li>
                     </ul>
                 </div>
             </nav>
@@ -190,6 +200,8 @@
                     <dd class="term-def">Googleが提供する生成AI。Google検索と連携し、回答の鮮度が高いのが特徴です。</dd>
                     <dt class="term" id="perplexity">Perplexity</dt>
                     <dd class="term-def">出典（引用リンク）を明示しながら回答するAI検索エンジン。情報源を確認しやすいのが特徴です。</dd>
+                    <dt class="term" id="copilot">Copilot（Microsoft Copilot）</dt>
+                    <dd class="term-def">Microsoftが提供する生成AIアシスタント。WindowsやEdge、Bing検索と連携し、Web上の情報を参照して回答します。Bing経由の情報を参照するため、AIO対策ではBingへの登録も有効です。</dd>
                 </dl>
             </section>
 
@@ -210,6 +222,14 @@
                     <dd class="term-def">AIが事実と異なる情報を、もっともらしく生成してしまう現象。正確な情報を構造化して提供することが、誤認識の抑制につながります。</dd>
                     <dt class="term" id="eeat">E-E-A-T</dt>
                     <dd class="term-def">経験・専門性・権威性・信頼性（Experience, Expertise, Authoritativeness, Trust）。Googleが評価する品質指標で、AIに信頼される情報源になるためにも重要です。</dd>
+                    <dt class="term" id="llms-txt">llms.txt</dt>
+                    <dd class="term-def">AIに読み取ってほしい情報やページを案内するためのテキストファイル。サイトの要点やリンクをまとめ、AIが内容を効率よく理解する助けを目的とした、比較的新しい取り組みです。専門的な設置は当社が代行します。</dd>
+                    <dt class="term" id="knowledge-graph">ナレッジグラフ（Knowledge Graph）</dt>
+                    <dd class="term-def">人・組織・場所などの実体（エンティティ）とその関係を結びつけた知識のデータベース。GoogleやAIが「その会社が実在し、何者か」を理解する土台になり、AIに正しく認識されるうえで重要です。</dd>
+                    <dt class="term" id="sameas">sameAs</dt>
+                    <dd class="term-def">構造化データで使う項目の一つで、公式サイトと同じ会社・人物を指すSNSや外部プロフィールのURLを示すもの。複数の情報源を結びつけ、AIに「同一の存在」だと正しく伝える役割があります。→ <a href="#structured-data">構造化データ</a></dd>
+                    <dt class="term" id="nap">NAP一貫性</dt>
+                    <dd class="term-def">名称（Name）・住所（Address）・電話番号（Phone）など会社情報を、Webサイトや各種掲載先で完全に統一すること。情報が一致しているほど、AIや検索エンジンが同じ会社だと正確に認識します。</dd>
                 </dl>
             </section>
 
