@@ -760,6 +760,23 @@ img { max-width: 100%; display: block; }
 .legal-back a { color: #225cff; font-weight: 700; text-decoration: none; }
 .legal-back a:hover { text-decoration: underline; }
 
+/* 会社概要テーブル */
+.about-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+.about-table th, .about-table td { text-align: left; vertical-align: top; padding: 14px 16px; border-bottom: 1px solid #e6e9f5; font-size: 0.92rem; line-height: 1.85; }
+.about-table th { width: 28%; color: #000048; font-weight: 800; background: #f5f7ff; white-space: nowrap; }
+.about-table td { color: #3a4170; }
+.about-table tr:last-child th, .about-table tr:last-child td { border-bottom: none; }
+.about-table a { color: #225cff; font-weight: 700; text-decoration: none; }
+.about-table a:hover { text-decoration: underline; }
+.about-biz { margin: 0; padding-left: 1.2em; }
+.about-biz li { list-style: disc; margin-bottom: 6px; }
+.about-biz li:last-child { margin-bottom: 0; }
+@media (max-width: 560px) {
+  .about-table th, .about-table td { display: block; width: 100%; padding: 10px 14px; }
+  .about-table th { border-bottom: none; padding-bottom: 2px; }
+  .about-table td { padding-top: 2px; padding-bottom: 14px; }
+}
+
 /* ========================================
    コラム一覧・用語集
    ======================================== */
