@@ -21,6 +21,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aiosearch.net/prevent-ai-misquote</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiosearch.net/ai-quotable-writing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
