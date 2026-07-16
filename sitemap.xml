@@ -21,6 +21,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aiosearch.net/ai-friendly-site-design</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiosearch.net/local-ai-recommendation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
