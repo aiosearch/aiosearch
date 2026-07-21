@@ -21,6 +21,11 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://aiosearch.net/aio-3month-roadmap</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiosearch.net/aio-in-house</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
