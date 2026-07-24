@@ -779,6 +779,17 @@ img { max-width: 100%; display: block; }
   .about-table td { padding-top: 2px; padding-bottom: 14px; }
 }
 
+/* 記事内・比較表（早見表） */
+.cmp-wrap { overflow-x: auto; margin: 18px 0 6px; -webkit-overflow-scrolling: touch; border: 1px solid #e2e8f5; border-radius: 12px; }
+.cmp-table { width: 100%; min-width: 560px; border-collapse: collapse; font-size: 0.9rem; background: #fff; }
+.cmp-table caption { caption-side: bottom; text-align: left; font-size: 0.78rem; color: #6a7196; padding: 8px 14px; }
+.cmp-table th, .cmp-table td { text-align: left; vertical-align: top; padding: 12px 14px; border-bottom: 1px solid #eef1fa; line-height: 1.7; }
+.cmp-table thead th { background: #225cff; color: #fff; font-weight: 800; white-space: nowrap; border-bottom: none; }
+.cmp-table tbody th { color: #000048; font-weight: 800; background: #f5f7ff; white-space: nowrap; }
+.cmp-table tbody tr:last-child th, .cmp-table tbody tr:last-child td { border-bottom: none; }
+.cmp-table td { color: #3a4170; }
+.cmp-table .cmp-accent { color: #225cff; font-weight: 700; }
+
 /* ========================================
    コラム一覧・用語集
    ======================================== */
