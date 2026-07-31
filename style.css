@@ -779,6 +779,15 @@ img { max-width: 100%; display: block; }
   .about-table td { padding-top: 2px; padding-bottom: 14px; }
 }
 
+/* 会社概要：数字で見る（実績スタッツ） */
+.about-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 8px 0 4px; }
+.stat-card { background: #f5f7ff; border: 1px solid #e2e8f5; border-radius: 14px; padding: 18px 14px; text-align: center; }
+.stat-num { display: block; font-family: "Zen Kaku Gothic New", sans-serif; font-weight: 900; font-size: 1.9rem; line-height: 1.1; color: #225cff; font-variant-numeric: tabular-nums; }
+.stat-num .unit { font-size: 0.95rem; font-weight: 800; margin-left: 2px; }
+.stat-label { display: block; margin-top: 7px; font-size: 0.8rem; font-weight: 700; color: #3a4170; line-height: 1.5; }
+.stat-note { margin: 10px 0 0; font-size: 0.78rem; color: #6a7196; }
+@media (max-width: 560px) { .about-stats { grid-template-columns: repeat(2, 1fr); } }
+
 /* 記事内・比較表（早見表） */
 .cmp-wrap { overflow-x: auto; margin: 18px 0 6px; -webkit-overflow-scrolling: touch; border: 1px solid #e2e8f5; border-radius: 12px; }
 .cmp-table { width: 100%; min-width: 560px; border-collapse: collapse; font-size: 0.9rem; background: #fff; }
