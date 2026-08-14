@@ -19,6 +19,9 @@ AIO（AI Optimization／AI最適化）とは、生成AIやAI検索が回答を�
 - [店舗・ローカルビジネスのAIO対策](https://aiosearch.net/local-business-aio): 飲食・サロン・クリニックなど地域で選ばれるためのAIO。
 - [AIO対策の費用はどれくらい？料金の決まり方と相場の考え方](https://aiosearch.net/aio-cost): 費用が変わる要因・相場の考え方・依頼前の確認点。
 - [AIO対策は自分でできる？プロに依頼すべきかの判断基準](https://aiosearch.net/diy-or-pro): 自分でやれる範囲とプロに頼むべきケースの判断軸。
+- [生成AIが「検索」をどう変える？中小企業の勝ち筋](https://aiosearch.net/generative-ai-changes-search): 検索行動の変化と、中小企業が限られた予算で選ばれるための4つの勝ち筋。
+- [AI検索での「表示順位」確認と改善](https://aiosearch.net/ai-search-ranking-check): 順位表のないAI検索で現在地を測る5段階の掲載レベルと、レベル別の改善策。
+- [中小企業向けAIO対策の失敗事例と回避策](https://aiosearch.net/aio-failure-cases): AIO対策でつまずく7つのパターンと、その回避策・立て直し手順。
 
 ## 連絡先
 - 無料相談：LINE公式アカウント（トップページのボタンから）
