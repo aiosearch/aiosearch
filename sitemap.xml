@@ -16,6 +16,21 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://aiosearch.net/aio-is-it-worth-it</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiosearch.net/cx-and-aio</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aiosearch.net/aio-5year-strategy</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://aiosearch.net/ai-search-trend-report</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
