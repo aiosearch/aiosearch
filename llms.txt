@@ -14,7 +14,7 @@ AIO（AI Optimization／AI最適化）とは、生成AIやAI検索が回答を�
 - [AIO対策とは？SEOとの違いと、今日から始める基本ステップ](https://aiosearch.net/what-is-aio): AIO対策の意味、SEOとの違い、必要な理由、基本ステップ。
 - [ChatGPTやGeminiに自社を紹介してもらうには？AIに引用される5つのポイント](https://aiosearch.net/get-cited-by-ai): 生成AIに紹介・引用されるための具体的な5つのポイント。
 - [AI検索時代に中小企業・店舗がやるべきこと](https://aiosearch.net/ai-search-small-business): AI検索の普及で集客がどう変わるか、最初にやるべきこと。
-- [構造化データとは？AIに正しく伝えるための基礎知識](https://aiosearch.net/structured-data-basics): 構造化データ（JSON-LD）の意味とAIO対策での重要性。
+- [構造化データとは？確認方法と最低限入れる3つ](https://aiosearch.net/structured-data-basics): 自社に入っているかの確認手順、Organization/FAQPage/Articleのコピペ可能なJSON-LD、業種別の最低セット。
 - [AIに引用されているか確認する方法](https://aiosearch.net/check-ai-citation): ChatGPT・Gemini・Perplexityで自社の引用状況を確認する手順。
 - [店舗・ローカルビジネスのAIO対策](https://aiosearch.net/local-business-aio): 飲食・サロン・クリニックなど地域で選ばれるためのAIO。
 - [AIO対策の費用はいくら？実際の料金を全部公開します](https://aiosearch.net/aio-cost): 診断49,800円・初期構築198,000円・継続月65,000円〜という実額と、無料でできる範囲・依頼前の確認点。

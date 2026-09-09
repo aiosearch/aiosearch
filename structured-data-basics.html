@@ -11,20 +11,20 @@
       gtag('js', new Date());
       gtag('config', 'G-F4TYJHZN0C');
     </script>
-    <title>構造化データとは？AIに正しく伝えるための基礎知識 | AIO対策パートナーズ</title>
-    <meta name="description" content="構造化データとは、Webページの内容を機械が理解できる形で記述したデータです。AIO対策でなぜ重要なのか、代表的な種類（Organization・FAQ・Article）、JSON-LDでの導入方法と注意点をわかりやすく解説します。">
+    <title>構造化データとは？自社サイトに入っているかの確認と、最低限入れる3つ【コピペ可・2026】 | AIO対策パートナーズ</title>
+    <meta name="description" content="「構造化データって、うちにも必要？」に答えます。5分でできる確認方法、中小企業が最低限入れるべき3つ、そのままコピペできるJSON-LDの実物、業種別の最低セット、よくある失敗まで。専門知識がなくても実行できる形で解説します。">
     <link rel="canonical" href="https://aiosearch.net/structured-data-basics">
     <meta name="theme-color" content="#225cff">
     <meta property="og:type" content="article">
     <meta property="og:site_name" content="AIO対策パートナーズ">
     <meta property="og:locale" content="ja_JP">
     <meta property="og:url" content="https://aiosearch.net/structured-data-basics">
-    <meta property="og:title" content="構造化データとは？AIに正しく伝えるための基礎知識">
-    <meta property="og:description" content="構造化データの意味、AIO対策での重要性、代表的な種類と導入方法をわかりやすく解説。">
+    <meta property="og:title" content="構造化データとは？確認方法と、最低限入れる3つ【コピペ可・2026】">
+    <meta property="og:description" content="5分でできる確認方法、最低限入れるべき3つ、コピペできるJSON-LDの実物、業種別の最低セットを解説します。">
     <meta property="og:image" content="https://aiosearch.net/images/eyecatch/structured-data.png">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="構造化データとは？AIに正しく伝える基礎知識">
-    <meta name="twitter:description" content="構造化データの意味・重要性・導入方法をわかりやすく解説。">
+    <meta name="twitter:title" content="構造化データとは？確認方法と、最低限入れる3つ【コピペ可・2026】">
+    <meta name="twitter:description" content="確認方法・最低限の3つ・コピペできるJSON-LD・業種別の最低セットを解説します。">
     <meta name="twitter:image" content="https://aiosearch.net/images/eyecatch/structured-data.png">
     <link rel="icon" href="/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon-192.png">
@@ -41,7 +41,7 @@
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "ホーム", "item": "https://aiosearch.net/" },
         { "@type": "ListItem", "position": 2, "name": "コラム", "item": "https://aiosearch.net/column" },
-        { "@type": "ListItem", "position": 3, "name": "構造化データとは？", "item": "https://aiosearch.net/structured-data-basics" }
+        { "@type": "ListItem", "position": 3, "name": "構造化データとは？確認方法と最低限入れる3つ", "item": "https://aiosearch.net/structured-data-basics" }
       ]
     }
     </script>
@@ -49,15 +49,43 @@
     {
       "@context": "https://schema.org",
       "@type": "Article",
-      "headline": "構造化データとは？AIに正しく伝えるための基礎知識",
-      "description": "構造化データの意味、AIO対策での重要性、代表的な種類とJSON-LDでの導入方法を解説します。",
+      "headline": "構造化データとは？自社サイトに入っているかの確認と、最低限入れる3つ【コピペ可・2026】",
+      "description": "構造化データの確認方法、中小企業が最低限入れるべき3つ、コピペできるJSON-LDの実物、業種別の最低セット、よくある失敗を解説します。",
       "image": "https://aiosearch.net/images/eyecatch/structured-data.png",
       "inLanguage": "ja",
       "datePublished": "2026-06-02T09:00:00+09:00",
-      "dateModified": "2026-06-11T09:00:00+09:00",
+      "dateModified": "2026-09-09T10:00:00+09:00",
       "author": { "@type": "Organization", "name": "AIO対策パートナーズ", "url": "https://aiosearch.net/" },
       "publisher": { "@type": "Organization", "name": "AIO対策パートナーズ", "logo": { "@type": "ImageObject", "url": "https://aiosearch.net/images/AIO512marukado.png" } },
       "mainEntityOfPage": "https://aiosearch.net/structured-data-basics"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "自社サイトに構造化データが入っているか、どうやって確認しますか？",
+          "acceptedAnswer": { "@type": "Answer", "text": "2つの方法があります。1つはGoogleのリッチリザルトテストに自社URLを入力する方法で、検出された種類が一覧で表示されます。もう1つはページ上で右クリックしてソースを表示し、application/ld+json という文字列を検索する方法です。見つからなければ入っていません。どちらも無料で5分あれば確認できます。" }
+        },
+        {
+          "@type": "Question",
+          "name": "構造化データは最低限どれを入れればいいですか？",
+          "acceptedAnswer": { "@type": "Answer", "text": "中小企業なら3つで十分です。会社情報を伝えるOrganization（店舗ならLocalBusiness）、よくある質問を伝えるFAQPage、記事ページに付けるArticleです。この3つでAIが会社を認識する土台ができます。商品を扱う場合はProductを追加します。" }
+        },
+        {
+          "@type": "Question",
+          "name": "構造化データを入れれば、AIに引用されるようになりますか？",
+          "acceptedAnswer": { "@type": "Answer", "text": "それだけでは引用されません。構造化データは情報を正確に伝えるための土台であり、引用されるかどうかは書かれている中身で決まります。事実が具体的に書かれていないページに構造化データを付けても、AIが引用する理由にはなりません。" }
+        },
+        {
+          "@type": "Question",
+          "name": "構造化データは自分で入れられますか？",
+          "acceptedAnswer": { "@type": "Answer", "text": "会社情報とFAQ程度であれば、HTMLを編集できる方なら自分で入れられます。head内にscriptタグを貼るだけで、見た目は一切変わりません。WordPressの場合はプラグインでも設定できます。ページ数が多い場合や、記事ごとに自動生成したい場合は、専門家に依頼したほうが確実です。" }
+        }
+      ]
     }
     </script>
 </head>
@@ -75,71 +103,227 @@
 
     <main class="legal-page">
         <div class="container legal-container glossary-container">
-            <nav class="glossary-breadcrumb"><a href="/">ホーム</a> ／ <a href="/column">コラム</a> ／ 構造化データとは？</nav>
-            <h1 class="legal-title">構造化データとは？AIに正しく伝えるための基礎知識</h1>
-            <p class="article-date">公開日：2026年6月2日<span class="sep">｜</span>更新日：2026年6月11日</p>
-            <img src="/images/eyecatch/structured-data.png" alt="構造化データとは？AIに正しく伝えるための基礎知識" class="article-eyecatch" width="1200" height="630" loading="lazy">
-            <p class="legal-lead">AIO対策の話で必ず出てくる「構造化データ」。名前は難しそうですが、考え方はシンプルです。この記事では、構造化データとは何か、なぜAIに重要なのか、どんな種類があり、どう導入するのかを、専門知識がなくてもわかるように解説します。</p>
+            <nav class="glossary-breadcrumb"><a href="/">ホーム</a> ／ <a href="/column">コラム</a> ／ 構造化データとは？確認方法と最低限入れる3つ</nav>
+            <h1 class="legal-title">構造化データとは？自社サイトに入っているかの確認と、最低限入れる3つ【コピペ可・2026】</h1>
+            <p class="article-date">公開日：2026年6月2日<span class="sep">｜</span>更新日：2026年9月9日</p>
+            <img src="/images/eyecatch/structured-data.png" alt="構造化データとは？自社サイトに入っているかの確認と、最低限入れる3つ【コピペ可・2026】" class="article-eyecatch" width="1200" height="630" loading="lazy" onerror="this.src='/images/AIOOGP.png'">
+            <p class="legal-lead">「構造化データって、うちにも必要ですか？」——AIO対策の相談でよくいただく質問です。結論から言うと<strong>必要ですが、難しくはありません</strong>。この記事では、用語の解説だけで終わらせず、<strong>①自社に入っているかを5分で確認する方法 ②中小企業が最低限入れるべき3つ ③そのままコピペできる実物のコード</strong>まで載せます。専門知識がなくても、今日中に手を動かせる内容です。</p>
 
             <nav class="toc" aria-label="目次">
                 <p class="toc-title">目次</p>
                 <ul>
-                    <li><a href="#what">構造化データとは</a></li>
-                    <li><a href="#why">なぜAIO対策で重要なのか</a></li>
-                    <li><a href="#types">代表的な種類</a></li>
-                    <li><a href="#how">導入方法（JSON-LD）</a></li>
-                    <li><a href="#notes">注意点</a></li>
+                    <li><a href="#what">構造化データとは（1分で）</a></li>
+                    <li><a href="#check">まず確認：自社に入っているか</a></li>
+                    <li><a href="#three">最低限入れる3つ</a></li>
+                    <li><a href="#code">コピペで使えるコード</a></li>
+                    <li><a href="#industry">業種別の最低セット</a></li>
+                    <li><a href="#mistake">よくある失敗5つ</a></li>
+                    <li><a href="#limit">正直な話：これだけでは引用されません</a></li>
+                    <li><a href="#faq">よくある質問</a></li>
+                    <li><a href="#summary">まとめ</a></li>
                 </ul>
             </nav>
 
             <section class="legal-section">
-                <h2 class="legal-h2" id="what">構造化データとは</h2>
-                <p><a href="/glossary#structured-data">構造化データ</a>とは、Webページの内容（会社情報・商品・FAQなど）を、機械が理解できる決まった形式で記述したデータです。人間は文章を読んで「これは会社名」「これは料金」と判断できますが、AIや検索エンジンには明示しないと正確に伝わりません。構造化データは、その「ラベル付け」をする役割を持ちます。</p>
-                <p>国際的な共通仕様である<strong>Schema.org</strong>の語彙を使い、多くは<strong>JSON-LD</strong>という形式で記述します。</p>
+                <h2 class="legal-h2" id="what">構造化データとは（1分で）</h2>
+                <p><strong>構造化データとは、ページの内容を機械が理解できる形でラベル付けしたデータ</strong>です。人間は文章を読んで「これは会社名」「これは料金」と判断できますが、AIや検索エンジンには明示しないと正確に伝わりません。</p>
+                <p>たとえば「050-3138-3489」という数字の並びを見て、人は電話番号だと分かります。しかし機械にとっては、それが電話番号なのか、注文番号なのか、確実には判断できません。<strong>「これは電話番号です」と機械語で添える</strong>のが構造化データです。</p>
+                <p>国際的な共通仕様である<strong>Schema.org</strong>という語彙を使い、<strong>JSON-LD</strong>という形式で書くのが一般的です。ページの見た目は一切変わりません。</p>
             </section>
 
             <section class="legal-section">
-                <h2 class="legal-h2" id="why">なぜAIO対策で重要なのか</h2>
-                <p>AIは、事実が整理され機械的に理解しやすいページを引用元に選びやすい傾向があります。構造化データで「これは会社情報」「これはFAQ」と明示すると、AIが内容を取り違えにくくなり、<a href="/glossary#hallucination">ハルシネーション</a>（誤った情報の生成）の抑制にもつながります。見た目を変えずにAIへ正確な情報を渡せるのが大きな利点です。</p>
-            </section>
-
-            <section class="legal-section">
-                <h2 class="legal-h2" id="types">代表的な種類</h2>
+                <h2 class="legal-h2" id="check">まず確認：自社に入っているか</h2>
+                <p>導入を考える前に、現状を確認してください。すでに入っている場合もあります。<strong>どちらも無料で、5分で終わります。</strong></p>
+                <p><strong>方法1：Googleのリッチリザルトテスト（おすすめ）</strong></p>
                 <ul class="legal-list">
-                    <li><strong>Organization / LocalBusiness</strong>：会社・店舗の基本情報（名称・事業内容・所在地・連絡先）</li>
-                    <li><strong>FAQPage</strong>：よくある質問と回答。AIが引用しやすい形式</li>
-                    <li><strong>Article</strong>：記事・コラムの情報（見出し・著者・公開日）</li>
-                    <li><strong>BreadcrumbList</strong>：パンくず。サイト構造を伝える</li>
-                    <li><strong>Product / Offer</strong>：商品・サービスや価格の情報</li>
+                    <li>「リッチリザルトテスト」で検索し、Googleのツールを開く</li>
+                    <li>自社サイトのURLを入力してテストする</li>
+                    <li>検出された種類が一覧で表示される。<strong>「アイテムが検出されませんでした」なら入っていません</strong></li>
+                </ul>
+                <p><strong>方法2：ソースを直接見る</strong></p>
+                <ul class="legal-list">
+                    <li>自社サイトのページ上で右クリック →「ページのソースを表示」</li>
+                    <li><code>Ctrl + F</code> で <code>application/ld+json</code> を検索する</li>
+                    <li>見つからなければ入っていません</li>
+                </ul>
+                <p>あわせて、<strong>robots.txtでAIクローラーを拒否していないか</strong>も確認しておくと確実です。読み取りを止めていると、構造化データを入れても意味がありません（<a href="/aio-failure-cases">よくある失敗の詳細</a>）。</p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-h2" id="three">最低限入れる3つ</h2>
+                <p>種類は数百ありますが、中小企業なら<strong>3つで十分</strong>です。全部を入れる必要はありません。</p>
+                <div class="cmp-wrap">
+                    <table class="cmp-table">
+                        <caption>※商品を販売している場合のみ、Productを追加します。</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">種類</th>
+                                <th scope="col">伝える内容</th>
+                                <th scope="col">置く場所</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row"><span class="cmp-accent">Organization</span></th>
+                                <td>社名・事業内容・連絡先・公式SNS</td>
+                                <td>全ページ（またはトップ）</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">FAQPage</th>
+                                <td>よくある質問と回答</td>
+                                <td>FAQページ・記事内のFAQ</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Article</th>
+                                <td>記事の見出し・公開日・更新日</td>
+                                <td>コラム・お知らせの各記事</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>店舗や事務所など<strong>実店舗がある場合は、Organizationの代わりにLocalBusiness</strong>を使います。住所・営業時間・対応エリアまで伝えられるため、「近くの◯◯」で探されるビジネスには必須です。</p>
+                <p>優先順位は明確で、<strong>まずOrganization（またはLocalBusiness）から</strong>です。AIが「この会社は実在し、何をしている会社か」を理解する土台になります。</p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-h2" id="code">コピペで使えるコード</h2>
+                <p>実際に使える形で載せます。<strong>◯◯の部分を自社の情報に置き換えて、HTMLの<code>&lt;head&gt;</code>内に貼るだけ</strong>です。見た目は変わりません。</p>
+                <p><strong>① 会社情報（Organization）</strong></p>
+                <pre class="code-block">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "◯◯株式会社",
+  "url": "https://example.com/",
+  "description": "◯◯県◯◯市で△△を提供する会社です。",
+  "telephone": "000-0000-0000",
+  "email": "info@example.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "JP",
+    "addressRegion": "◯◯県",
+    "addressLocality": "◯◯市",
+    "streetAddress": "◯◯1-2-3"
+  },
+  "sameAs": [
+    "https://www.instagram.com/◯◯",
+    "https://note.com/◯◯"
+  ]
+}
+&lt;/script&gt;</pre>
+                <p class="code-cap">※ <code>sameAs</code> には公式SNSや掲載ページのURLを入れます。<strong>「同じ会社である」とAIに伝える重要な項目</strong>です。</p>
+                <p><strong>② 店舗・事務所の場合（LocalBusiness）</strong></p>
+                <p>上のコードの <code>"@type": "Organization"</code> を <code>"@type": "LocalBusiness"</code> に変え、次の2項目を足します。</p>
+                <pre class="code-block">  "openingHours": "Mo-Fr 09:00-18:00",
+  "areaServed": "◯◯県◯◯市"</pre>
+                <p><strong>③ よくある質問（FAQPage）</strong></p>
+                <pre class="code-block">&lt;script type="application/ld+json"&gt;
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "料金はいくらですか？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "◯◯円からご提供しています。作業範囲によって変わるため、お見積りでご案内します。"
+      }
+    }
+  ]
+}
+&lt;/script&gt;</pre>
+                <p class="code-cap">※ 質問を増やすときは、<code>{ "@type": "Question" ... }</code> のブロックをカンマ区切りで並べます。</p>
+                <p>貼り終えたら、必ず<strong>リッチリザルトテストで検証</strong>してください。書式が1文字崩れているだけで、まるごと無効になります。</p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-h2" id="industry">業種別の最低セット</h2>
+                <p>自社の業種に合わせて、必要なものだけ入れてください。</p>
+                <div class="cmp-wrap">
+                    <table class="cmp-table">
+                        <caption>※どの業種でもArticleは記事ページに付けます。</caption>
+                        <thead>
+                            <tr>
+                                <th scope="col">業種</th>
+                                <th scope="col">最低限のセット</th>
+                                <th scope="col">効く理由</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">飲食・サロン・クリニック</th>
+                                <td><span class="cmp-accent">LocalBusiness</span>＋FAQPage</td>
+                                <td>「近くの◯◯」で参照される</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">士業・コンサル</th>
+                                <td>Organization＋FAQPage</td>
+                                <td>費用・手続きの質問に答えられる</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">工務店・リフォーム</th>
+                                <td>LocalBusiness＋FAQPage</td>
+                                <td>対応エリアが明確になる</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">BtoB・製造</th>
+                                <td>Organization＋Article</td>
+                                <td>技術情報が会社と結びつく</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">EC・小売</th>
+                                <td>Organization＋<span class="cmp-accent">Product</span></td>
+                                <td>商品が比較・推奨されやすい</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <p>業種ごとの詳しい戦略は<a href="/industry-aio-strategy">業界別AIO戦略</a>にまとめています。</p>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-h2" id="mistake">よくある失敗5つ</h2>
+                <ul class="legal-list">
+                    <li><strong>表示内容と一致していない</strong>：ページに書いていない料金や営業時間を構造化データにだけ書く。矛盾はAIの信頼を下げます</li>
+                    <li><strong>コピペ元の情報が残っている</strong>：他社のサンプルを使い、<strong>社名やURLが他社のまま</strong>という事例は実際にあります。必ず全項目を確認してください</li>
+                    <li><strong>構文が崩れている</strong>：カンマ1つの過不足で全体が無効になります。検証ツールで必ず確認を</li>
+                    <li><strong>入れただけで満足する</strong>：内容が薄いページに付けても、引用の理由にはなりません</li>
+                    <li><strong>非公開にしたい情報を書く</strong>：伏せたい価格などは、構造化データからも除外します</li>
                 </ul>
             </section>
 
             <section class="legal-section">
-                <h2 class="legal-h2" id="how">導入方法（JSON-LD）</h2>
-                <p>一般的には、ページの<code>&lt;head&gt;</code>内に<code>&lt;script type="application/ld+json"&gt;</code>として記述します。本文の見た目には影響しないため、デザインを崩さずに追加できます。書いた後は、Googleの「リッチリザルトテスト」などで正しく認識されるかを確認すると安心です。</p>
+                <h2 class="legal-h2" id="limit">正直な話：これだけでは引用されません</h2>
+                <p>営業上は「構造化データを入れればAIに引用されます」と言いたいところですが、事実は違います。<strong>構造化データは、書かれている内容を正確に伝えるための土台であって、内容そのものを良くするものではありません。</strong></p>
+                <p>「高品質なサービスを提供します」としか書かれていないページに構造化データを付けても、AIが引用する理由は生まれません。逆に、<strong>料金・実績・対応範囲が具体的に書かれたページ</strong>に付ければ、その事実が正確に伝わります。</p>
+                <p>順番としては、<strong>①事実を具体的に書く → ②構造化データで正確に伝える</strong>です。逆にしないでください。書き方は<a href="/ai-quotable-writing">AIが引用したくなる記事作成術</a>で解説しています。</p>
             </section>
 
             <section class="legal-section">
-                <h2 class="legal-h2" id="notes">注意点</h2>
-                <ul class="legal-list">
-                    <li><strong>実際のページ内容と一致させる</strong>：表示と異なる情報を構造化データに書かない</li>
-                    <li><strong>非公開にしたい情報は入れない</strong>：価格などを伏せたい場合は構造化データからも除外する</li>
-                    <li><strong>構文を正しく保つ</strong>：書式が崩れると認識されないため、検証ツールでチェックする</li>
-                </ul>
-                <p>構造化データはAIO対策の土台のひとつです。ただし、これだけで完結するわけではなく、明確な事実記述・FAQ・継続的な見直しと組み合わせることで効果を発揮します。</p>
+                <h2 class="legal-h2" id="faq">よくある質問</h2>
+                <div class="faq-list">
+                    <details class="faq-item"><summary class="faq-q">自社サイトに構造化データが入っているか、どうやって確認しますか？</summary><p class="faq-a">2つの方法があります。1つはGoogleのリッチリザルトテストに自社URLを入力する方法で、検出された種類が一覧で表示されます。もう1つはページ上で右クリックしてソースを表示し、application/ld+json という文字列を検索する方法です。見つからなければ入っていません。どちらも無料で5分あれば確認できます。</p></details>
+                    <details class="faq-item"><summary class="faq-q">構造化データは最低限どれを入れればいいですか？</summary><p class="faq-a">中小企業なら3つで十分です。会社情報を伝えるOrganization（店舗ならLocalBusiness）、よくある質問を伝えるFAQPage、記事ページに付けるArticleです。この3つでAIが会社を認識する土台ができます。商品を扱う場合はProductを追加します。</p></details>
+                    <details class="faq-item"><summary class="faq-q">構造化データを入れれば、AIに引用されるようになりますか？</summary><p class="faq-a">それだけでは引用されません。構造化データは情報を正確に伝えるための土台であり、引用されるかどうかは書かれている中身で決まります。事実が具体的に書かれていないページに構造化データを付けても、AIが引用する理由にはなりません。</p></details>
+                    <details class="faq-item"><summary class="faq-q">構造化データは自分で入れられますか？</summary><p class="faq-a">会社情報とFAQ程度であれば、HTMLを編集できる方なら自分で入れられます。head内にscriptタグを貼るだけで、見た目は一切変わりません。WordPressの場合はプラグインでも設定できます。ページ数が多い場合や、記事ごとに自動生成したい場合は、専門家に依頼したほうが確実です。</p></details>
+                    <details class="faq-item"><summary class="faq-q">構造化データを入れると検索順位は上がりますか？</summary><p class="faq-a">順位を直接上げるものではありません。ただし内容が正確に伝わることで、検索結果でのリッチな表示やAIの回答での引用につながる可能性があります。順位そのものより、正しく理解されることを目的に考えてください。</p></details>
+                </div>
+            </section>
+
+            <section class="legal-section">
+                <h2 class="legal-h2" id="summary">まとめ</h2>
+                <p>構造化データは、<strong>ページの内容を機械に正しく伝えるためのラベル</strong>です。まずリッチリザルトテストで<strong>入っているかを確認</strong>し、入っていなければ<strong>Organization（店舗ならLocalBusiness）・FAQPage・Article</strong>の3つから始めてください。上のコードをそのまま使えます。ただし<strong>これだけで引用されるわけではありません</strong>。事実を具体的に書いたうえで使ってこそ効きます。実装まで任せたい場合は、<a href="/plans">料金プラン</a>や<a href="/faq">よくある質問</a>もご覧ください。</p>
             </section>
 
             <aside class="article-related">
                 <p class="rel-ttl">あわせて読みたい</p>
                 <ul>
                     <li><a href="/what-is-aio">AIO対策とは？SEOとの違いと、今日から始める基本ステップ</a></li>
-                    <li><a href="/get-cited-by-ai">ChatGPTやGeminiに自社を紹介してもらうには？AIに引用される5つのポイント</a></li>
+                    <li><a href="/ai-friendly-site-design">AIが好むサイト設計：理解しやすい構造の秘訣｜サイト全体をAIに伝える</a></li>
+                    <li><a href="/aio-failure-cases">中小企業向けAIO対策の失敗事例と回避策｜つまずく7パターンと立て直し方【2026】</a></li>
                     <li><a href="/glossary">AIO・AI検索の用語集</a></li>
-                                    <li><a href="/aio-cost">AIO対策の費用はどれくらい？料金の決まり方と相場の考え方</a></li>
-                    <li><a href="/diy-or-pro">AIO対策は自分でできる？プロに依頼すべきかの判断基準</a></li>
-                    <li><a href="/ai-trusted-info">AIが信頼する情報の定義｜選ばれる基準とは</a></li>
-                    <li><a href="/aio-geo-llmo-aeo">AIO・GEO・LLMO・AEOの違いとは？</a></li>
-</ul>
+                </ul>
             </aside>
 
             <aside class="article-cta">
@@ -147,7 +331,7 @@
                     <img src="/images/AIOOGP.png" alt="AIO対策パートナーズ｜AIに選ばれる準備を、はじめよう" class="article-cta-img" width="1200" height="630" loading="lazy">
                     <div class="article-cta-body">
                         <p class="article-cta-lead">構造化データの実装、まるごとお任せください。</p>
-                        <p class="article-cta-text"><strong>AIO対策パートナーズ</strong> が、構造化データの整備を含め、AIに正しく認識される土台づくりを無料相談からサポートします。</p>
+                        <p class="article-cta-text"><strong>AIO対策パートナーズ</strong>（運営：合同会社フィアール）が、構造化データの設計・実装から検証まで対応します。まずは無料相談で、現状の確認だけでも。</p>
                         <span class="article-cta-btn">サービスを見る・無料相談する →</span>
                     </div>
                 </a>
@@ -160,6 +344,8 @@
     <footer class="footer">
         <div class="container">
             <p class="footer-logo"><span class="footer-brand-mark">AIO</span> <span class="footer-brand-name">対策パートナーズ</span></p>
+            <p class="footer-operator">「AIO対策パートナーズ」は、<a href="/about">合同会社フィアール</a>が運営する、AIO（AI最適化）を専門とする支援サービスです。</p>
+            <p class="footer-contact">お問い合わせ：<a href="tel:05031383489">050-3138-3489</a>（平日 9:00–18:00）／<a href="mailto:info@aiosearch.net">info@aiosearch.net</a></p>
             <p class="footer-links"><a href="/about">会社概要</a> ｜ <a href="/column">コラム</a> ｜ <a href="/faq">よくある質問</a> ｜ <a href="/privacy">プライバシーポリシー</a></p>
             <p class="copyright">© 2026 AIO対策パートナーズ</p>
         </div>

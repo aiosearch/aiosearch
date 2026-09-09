@@ -934,3 +934,8 @@ img { max-width: 100%; display: block; }
     text-wrap: pretty;
     word-break: auto-phrase;
 }
+
+/* ===== コードブロック（構造化データのサンプル等） ===== */
+.code-block{background:#0f1220;color:#e8ebf5;border-radius:10px;padding:14px 16px;margin:14px 0;overflow-x:auto;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.8rem;line-height:1.75;white-space:pre;-webkit-overflow-scrolling:touch}
+.code-cap{font-size:.8rem;color:#6b7280;margin:-8px 0 16px}
+.legal-section code{background:#eef1f8;border-radius:5px;padding:2px 6px;font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.88em;word-break:break-all}
