@@ -11,7 +11,7 @@ AIO（AI Optimization／AI最適化）とは、生成AIやAI検索が回答を�
 - [プライバシーポリシー](https://aiosearch.net/privacy): 個人情報の取り扱い方針。
 
 ## コラム（AIO・AI検索の基礎と実践）
-- [AIO対策とは？SEOとの違いと、今日から始める基本ステップ](https://aiosearch.net/what-is-aio): AIO対策の意味、SEOとの違い、必要な理由、基本ステップ。
+- [AIO対策とは？SEOとの違いと、5分でできる自社チェック](https://aiosearch.net/what-is-aio): AIO対策の定義、SEOとの違いの比較表、5分でできる現状確認、最初の1週間の手順、費用の目安。
 - [ChatGPTやGeminiに自社を紹介してもらうには？AIに引用される5つのポイント](https://aiosearch.net/get-cited-by-ai): 生成AIに紹介・引用されるための具体的な5つのポイント。
 - [AI検索時代に中小企業・店舗がやるべきこと](https://aiosearch.net/ai-search-small-business): AI検索の普及で集客がどう変わるか、最初にやるべきこと。
 - [構造化データとは？確認方法と最低限入れる3つ](https://aiosearch.net/structured-data-basics): 自社に入っているかの確認手順、Organization/FAQPage/Articleのコピペ可能なJSON-LD、業種別の最低セット。
@@ -27,6 +27,7 @@ AIO（AI Optimization／AI最適化）とは、生成AIやAI検索が回答を�
 - [中小企業向けAI検索トレンド分析レポート【2026年版】](https://aiosearch.net/ai-search-trend-report): AI検索の5つのトレンドを独自調査と定点観測データで整理し、2026年後半の打ち手を優先順位つきで解説。
 - [生成AIが「検索」をどう変える？中小企業の勝ち筋](https://aiosearch.net/generative-ai-changes-search): 検索行動の変化と、中小企業が限られた予算で選ばれるための4つの勝ち筋。
 - [AI検索での「表示順位」確認と改善](https://aiosearch.net/ai-search-ranking-check): 順位表のないAI検索で現在地を測る5段階の掲載レベルと、レベル別の改善策。
+- [AI経由の問い合わせは増えるのか？自社サイトで3ヶ月測った記録](https://aiosearch.net/more-inquiries): 保証はできないという前提と、自社サイトの実測記録、露出を問い合わせにつなげる4段階。
 - [中小企業向けAIO対策の失敗事例と回避策](https://aiosearch.net/aio-failure-cases): AIO対策でつまずく7つのパターンと、その回避策・立て直し手順。
 
 ## 連絡先
