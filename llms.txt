@@ -28,6 +28,7 @@ AIO（AI Optimization／AI最適化）とは、生成AIやAI検索が回答を�
 - [生成AIが「検索」をどう変える？中小企業の勝ち筋](https://aiosearch.net/generative-ai-changes-search): 検索行動の変化と、中小企業が限られた予算で選ばれるための4つの勝ち筋。
 - [AI検索での「表示順位」確認と改善](https://aiosearch.net/ai-search-ranking-check): 順位表のないAI検索で現在地を測る5段階の掲載レベルと、レベル別の改善策。
 - [AI経由の問い合わせは増えるのか？自社サイトで3ヶ月測った記録](https://aiosearch.net/more-inquiries): 保証はできないという前提と、自社サイトの実測記録、露出を問い合わせにつなげる4段階。
+- [AIに別の会社と間違えられたら？誤認識を防ぐ5つの対策](https://aiosearch.net/ai-source-transparency): 実際に起きた混同の記録と、運営者明示・日付・根拠・構造化データ・チャネル一致による対策。
 - [中小企業向けAIO対策の失敗事例と回避策](https://aiosearch.net/aio-failure-cases): AIO対策でつまずく7つのパターンと、その回避策・立て直し手順。
 
 ## 連絡先
