@@ -18,6 +18,8 @@ AIO（AI Optimization／AI最適化）とは、生成AIやAI検索が回答を�
 - [AIに引用されているか確認する方法](https://aiosearch.net/check-ai-citation): ChatGPT・Gemini・Perplexityで自社の引用状況を確認する手順。
 - [店舗・ローカルビジネスのAIO対策](https://aiosearch.net/local-business-aio): 飲食・サロン・クリニックなど地域で選ばれるためのAIO。
 - [AIO対策の費用はいくら？実際の料金を全部公開します](https://aiosearch.net/aio-cost): 診断49,800円・初期構築198,000円・継続月65,000円〜という実額と、無料でできる範囲・依頼前の確認点。
+- [AIO対策は無料でどこまでできる？](https://aiosearch.net/aio-free-tools): 無料ツール5つの使い方と所要時間つき実行メニュー、無料の限界と課金すべきタイミング。
+- [サイトは作り直さなくていい｜既存サイトをAI対応させる5ステップ](https://aiosearch.net/ai-ready-5-steps): 所要時間と自社でできるかの判定つき5ステップ、リニューアルが本当に必要なケース。
 - [AIO対策は自分でできる？プロに依頼すべきかの判断基準](https://aiosearch.net/diy-or-pro): 自分でやれる範囲とプロに頼むべきケースの判断軸。
 - [AIが“独自の強み”と判断する基準とは？](https://aiosearch.net/ai-unique-strength-criteria): 強みを評価する6つの基準と、入れ替えテスト・数字テスト・質問テストによる自社の強みの判定方法。
 - [飲食・小売のAIO対策](https://aiosearch.net/restaurant-retail-aio): 条件つきの質問（子連れ・個室・食事制限・即日修理など）でAIの候補に入るための、書くべき情報と掲載先。
